@@ -371,8 +371,20 @@ brew untap sinamedialab/cleancache
 rm ~/.cleancache.conf   # optional: remove your config
 ```
 
+## Disclaimer
+
+**Use at your own risk.**
+
+`cleancache` permanently deletes files and directories. While it is designed to only remove cache and log data that is safe to delete, the authors and contributors provide this software **as is**, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, or non-infringement.
+
+In no event shall the authors or copyright holders be liable for any claim, damages, or other liability — including but not limited to data loss, system instability, or application issues — arising from the use of this software.
+
+**Before running, ensure you understand what each section cleans.** When in doubt, use `-i` (interactive mode) to review each section before deletion, or set individual sections to `false` in `~/.cleancache.conf` to permanently skip them.
+
+This software is released under the MIT License. See [LICENSE](./LICENSE) for full terms.
+
 ---
 
 ## License
 
-MIT © [Sina Media Lab](https://github.com/sinamedialab)
+MIT © [Sina Media Lab Inc.](https://github.com/sinamedialab)
