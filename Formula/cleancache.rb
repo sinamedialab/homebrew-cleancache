@@ -2,7 +2,7 @@ class Cleancache < Formula
   desc "Fast, silent macOS cache and log cleaner for any user (60+ apps supported)"
   homepage "https://github.com/sinamedialab/homebrew-cleancache"
   url "https://github.com/sinamedialab/homebrew-cleancache/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "REPLACE_AFTER_TAGGING"
+  sha256 "0ad8bec9e3c1bed191acb703944098c9bcf38f54645ae2ed52e547642a5051ca"
   license "MIT"
   version "1.0.0"
 
